@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "0a5f3efde34ae52d3939c3841a42c88d",
+    "packages": [
+        {
+            "name": "clippings/carpo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/carpo.git",
+                "reference": "1cd407de2d7cd6f008ccdc7b3ff16200c4bb7644"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/carpo/zipball/1cd407de2d7cd6f008ccdc7b3ff16200c4bb7644",
+                "reference": "1cd407de2d7cd6f008ccdc7b3ff16200c4bb7644",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\Carpo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Object validaiton library",
+            "time": "2014-03-27 10:25:52"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "clippings/carpo": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
