@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clippings/carpo.git",
-                "reference": "1cd407de2d7cd6f008ccdc7b3ff16200c4bb7644"
+                "reference": "9f0fda1ed849bd30fba3d87bb6e68ebd971f8e44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clippings/carpo/zipball/1cd407de2d7cd6f008ccdc7b3ff16200c4bb7644",
-                "reference": "1cd407de2d7cd6f008ccdc7b3ff16200c4bb7644",
+                "url": "https://api.github.com/repos/clippings/carpo/zipball/9f0fda1ed849bd30fba3d87bb6e68ebd971f8e44",
+                "reference": "9f0fda1ed849bd30fba3d87bb6e68ebd971f8e44",
                 "shasum": ""
             },
             "type": "library",
@@ -38,7 +38,7 @@
                 }
             ],
             "description": "Object validaiton library",
-            "time": "2014-03-27 10:25:52"
+            "time": "2014-03-27 13:11:59"
         }
     ],
     "packages-dev": [

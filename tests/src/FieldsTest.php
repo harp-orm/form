@@ -11,7 +11,8 @@ class FieldsTest extends AbstractTestCase
     public function testTest()
     {
         $subject = new \stdClass();
-        $subject->title = '';
+        $subject->title = 'test';
+        $subject->title_confirm = 'test2';
         $subject->body = 'asdfasdf';
         $subject->isBig = false;
         $subject->status = array('big', 'small');
@@ -20,6 +21,7 @@ class FieldsTest extends AbstractTestCase
             new Assert\Present('title'),
             new Assert\LengthGreaterThan('body', 100),
             new Assert\Email('title'),
+            new Assert\Matches('title', 'title_confirm'),
         ]));
 
         $fields->validate();

@@ -13,7 +13,7 @@ use CL\Form\Fields;
  */
 abstract class AbstractField
 {
-    protected $prefix;
+    protected $prefix = '%s';
     protected $name;
     protected $value;
     protected $fields;
