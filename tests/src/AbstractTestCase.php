@@ -1,6 +1,6 @@
 <?php
 
-namespace CL\Form\Test;
+namespace Harp\Form\Test;
 
 use PHPUnit_Framework_TestCase;
 

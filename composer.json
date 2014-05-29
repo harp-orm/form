@@ -1,5 +1,5 @@
 {
-    "name": "clippings/form",
+    "name": "harp-orm/form",
     "description": "Form builder with validation",
     "license": "BSD-3-Clause",
     "authors": [
@@ -10,9 +10,9 @@
         }
     ],
     "require": {
-        "clippings/carpo": "dev-master"
+        "harp-orm/validate": "dev-master"
     },
     "autoload": {
-        "psr-4": {"CL\\Form\\": "src/"}
+        "psr-4": {"Harp\\Form\\": "src/"}
     }
 }

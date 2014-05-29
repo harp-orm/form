@@ -1,8 +1,8 @@
 <?php
 
-namespace CL\Form\Field;
+namespace Harp\Form\Field;
 
-use CL\Carpo\Assert;
+use Harp\Validate\Assert;
 
 /**
  * @author    Ivan Kerin <ikerin@gmail.com>

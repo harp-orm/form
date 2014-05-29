@@ -1,9 +1,9 @@
 <?php
 
-namespace CL\Form;
+namespace Harp\Form;
 
-use CL\Carpo\Errors;
-use CL\Form\Field\AbstractField;
+use Harp\Validate\Errors;
+use Harp\Form\Field\AbstractField;
 
 /**
  * @author    Ivan Kerin <ikerin@gmail.com>

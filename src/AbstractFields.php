@@ -1,10 +1,10 @@
 <?php
 
-namespace CL\Form;
+namespace Harp\Form;
 
-use CL\Carpo\Errors;
-use CL\Form\Field;
-use CL\Carpo\Asserts;
+use Harp\Validate\Errors;
+use Harp\Form\Field;
+use Harp\Validate\Asserts;
 
 /**
  * @author    Ivan Kerin <ikerin@gmail.com>

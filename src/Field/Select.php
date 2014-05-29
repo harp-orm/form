@@ -1,8 +1,8 @@
 <?php
 
-namespace CL\Form\Field;
+namespace Harp\Form\Field;
 
-use CL\Form\Fields;
+use Harp\Form\Fields;
 
 /**
  * @author    Ivan Kerin <ikerin@gmail.com>

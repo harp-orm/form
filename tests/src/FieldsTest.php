@@ -1,10 +1,10 @@
 <?php
 
-namespace CL\Form\Test;
+namespace Harp\Form\Test;
 
-use CL\Form\Fields;
-use CL\Carpo\Asserts;
-use CL\Carpo\Assert;
+use Harp\Form\Fields;
+use Harp\Validate\Asserts;
+use Harp\Validate\Assert;
 
 class FieldsTest extends AbstractTestCase
 {

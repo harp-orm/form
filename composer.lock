@@ -3,26 +3,26 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0a5f3efde34ae52d3939c3841a42c88d",
+    "hash": "230aa3b8bf196773b0e560f2e704883c",
     "packages": [
         {
-            "name": "clippings/carpo",
+            "name": "harp-orm/validate",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/clippings/carpo.git",
-                "reference": "9f0fda1ed849bd30fba3d87bb6e68ebd971f8e44"
+                "url": "https://github.com/harp-orm/validate.git",
+                "reference": "4287648c926e43ec668f17a8be507b521702853b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clippings/carpo/zipball/9f0fda1ed849bd30fba3d87bb6e68ebd971f8e44",
-                "reference": "9f0fda1ed849bd30fba3d87bb6e68ebd971f8e44",
+                "url": "https://api.github.com/repos/harp-orm/validate/zipball/4287648c926e43ec668f17a8be507b521702853b",
+                "reference": "4287648c926e43ec668f17a8be507b521702853b",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "CL\\Carpo\\": "src/"
+                    "Harp\\Validate\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -38,23 +38,15 @@
                 }
             ],
             "description": "Object validaiton library",
-            "time": "2014-03-27 13:11:59"
+            "time": "2014-05-29 12:13:07"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "clippings/carpo": 20
+        "harp-orm/validate": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "platform": [],
+    "platform-dev": []
 }
